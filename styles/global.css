@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-smooting: grayscale;
+}
+
+:root {
+  --brand-color: #ef5f4c;
+  --bg-color: #fff;
+  --surface-color: #f5f5f5;
+  --skeleton-color: #d9d9d9;
+  --shape-transparency: rgba(255, 255, 255, 0.56);
+  --fs-color-primary: #313131;
+  --fs-color-secondary: #6c6c6c;
+
+  --ff-sans: "Poppins", sans-serif;
+
+  --fw-base: 400;
+  --fw-bold: 600;
+
+  --fs-title: 1.5rem;
+  --fs-body: 0.875rem;
+  --fs-base: 1rem;
+
+  --py-base: 1rem;
+  --py-lg: 2rem;
+
+  --px-base: 1rem;
+  --px-lg: 2rem;
+}
+
+html {
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-base);
+  line-height: 1.7;
+  color: var(--fs-color-secondary);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+h1,
+h2,
+h3 {
+  font-size: var(--fs-title);
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-bold);
+  line-height: 1.25;
+  color: var(--fs-color-primary);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1.5;
+  font-size: var(--fs-base);
+}
+
+@media (width <= 80rem) {
+  :root {
+    --fs-title: 2rem;
+    --fs-body: 0.875rem;
+    --fs-base: 1rem;
+
+    --py-base: 1.5rem;
+    --py-sm: 1.5rem;
+    --py-lg: 2rem;
+
+    --px-lg: 2rem;
+  }
+}
