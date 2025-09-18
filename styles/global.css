@@ -1,8 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
   font: inherit;
+  box-sizing: border-box;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-smooting: grayscale;
 }
@@ -26,10 +28,11 @@
   --fs-base: 1rem;
 
   --py-base: 1rem;
+  --py-md: 1.25rem;
   --py-lg: 2rem;
 
   --px-base: 1rem;
-  --px-lg: 2rem;
+  --px-lg: 1rem;
 }
 
 html {
@@ -65,7 +68,11 @@ a {
   }
 }
 
-@media (width <= 80rem) {
+ul[role="list"] {
+  list-style: none;
+}
+
+@media (width >= 80rem) {
   :root {
     --fs-title: 2rem;
     --fs-body: 0.875rem;

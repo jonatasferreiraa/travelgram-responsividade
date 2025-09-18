@@ -14,8 +14,27 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Titulo</h1>
-    <p>texto</p>
-    <a href="">Minhas viagens</a>
+    <header class="container flex gap-1 py-md items-center">
+      <img src="/assets/icons/Logo.svg" alt="" />
+      <nav class="flex items-center gap-1">
+        <a
+          href="#"
+          class="search"
+          aria-label="magnifying-glass"
+          id="mobile-only"
+        ></a>
+
+        <ul role="list" class="desktop-only">
+          <li aria-label="explorer">
+            <a href="" class="icon-explorer"></a>
+            <a href="">Explorar</a>
+          </li>
+
+          <li><a href="">Minhas viagens</a></li>
+        </ul>
+
+        <img src="/assets/icons/profile-img.svg" alt="" />
+      </nav>
+    </header>
   </body>
 </html>
