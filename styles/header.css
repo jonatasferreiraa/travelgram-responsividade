@@ -1,7 +1,7 @@
-header {
+nav {
   justify-content: space-between;
 
-  & nav {
+  & div {
     & img:nth-child(3) {
       width: 2.5rem;
     }
