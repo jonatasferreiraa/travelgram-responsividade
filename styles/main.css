@@ -1,0 +1,23 @@
+main {
+  display: grid;
+  gap: 16px;
+
+  & img {
+    width: 20.5rem;
+    height: 20.5rem;
+    aspect-ratio: 1/1;
+  }
+}
+
+@media (width >= 80rem) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  main img {
+    width: 17.875rem;
+    height: 17.875rem;
+    aspect-ratio: 1/1;
+  }
+}
