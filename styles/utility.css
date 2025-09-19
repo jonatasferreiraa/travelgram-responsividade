@@ -2,10 +2,6 @@
   padding-block: var(--py-base);
 }
 
-.py-md {
-  padding-block: var(--py-md);
-}
-
 .py-lg {
   padding-block: var(--py-lg);
 }
@@ -15,7 +11,7 @@
 }
 
 .px-lg {
-  padding-inline: var(--px-base);
+  padding-inline: var(--px-lg);
 }
 
 .flex {
@@ -44,8 +40,12 @@
 
 .container {
   --max-width: 360px;
-  width: min(var(--max-width), 100% - var(--px-lg) * 2);
+  width: min(var(--max-width), 100% - var(--px-base) * 2);
   margin-inline: auto;
+}
+
+.surface-color-bg {
+  background-color: var(--surface-color);
 }
 
 .desktop-only {

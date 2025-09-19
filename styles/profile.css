@@ -1,0 +1,54 @@
+#profile {
+  & img {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+
+  & > div {
+    & p {
+      font-size: var(--fs-body);
+    }
+  }
+}
+
+#info {
+  width: 17.5rem;
+  & li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  & span {
+    font-size: var(--fs-body);
+  }
+}
+
+@media (width >= 80rem) {
+  #profile-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  #profile {
+    display: flex;
+    gap: 2rem;
+    width: 39rem;
+
+    & img {
+      width: 11rem;
+      height: 11rem;
+    }
+
+    & > div {
+      & p {
+        font-size: inherit;
+      }
+    }
+  }
+
+  #info {
+    & span {
+      font-size: inherit;
+    }
+  }
+}
