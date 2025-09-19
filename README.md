@@ -14,8 +14,8 @@ Navegação:
 ## Sobre
 
 
-![Nest Hub Max-1758308190957](https://github.com/user-attachments/assets/d5b70630-5742-4865-b9ec-cb918131b179)
-![Samsung Galaxy S8+-1758308178417](https://github.com/user-attachments/assets/fd16e083-9e25-498a-8360-c7466ff8ec32)
+![DESKTOP 1280PX](https://github.com/user-attachments/assets/d5b70630-5742-4865-b9ec-cb918131b179) ![MOBILE 380X](https://github.com/user-attachments/assets/fd16e083-9e25-498a-8360-c7466ff8ec32)
+
 
 Uma interface com responsividade ( desktop : 1280px ) ( mobile : 380px)
 
