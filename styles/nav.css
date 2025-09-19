@@ -1,0 +1,51 @@
+header {
+  background-color: var(--surface-color);
+
+  & nav {
+    justify-content: space-between;
+
+    & div {
+      & img:nth-child(3) {
+        width: 2.5rem;
+      }
+
+      & ul li {
+        display: inline-block;
+      }
+
+      & ul li:last-child {
+        padding-left: 1rem;
+      }
+    }
+
+    & ul {
+      & li:first-child {
+        & a {
+          background: url(/assets/icons/MagnifyingGlass.svg) no-repeat;
+          display: inline-block;
+          padding-left: 2rem;
+
+          &:hover {
+            background: url(/assets/icons/MagnifyingGlass-hover.svg) no-repeat;
+          }
+        }
+      }
+    }
+  }
+}
+
+a.search {
+  --bg-img: "";
+  background-image: var(--bg-img);
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+
+  &[aria-label="magnifying-glass"] {
+    --bg-img: url(/assets/icons/MagnifyingGlass.svg);
+
+    &:hover {
+      --bg-img: url(/assets/icons/MagnifyingGlass-hover.svg);
+    }
+  }
+}

@@ -21,7 +21,7 @@
   --ff-sans: "Poppins", sans-serif;
 
   --fw-base: 400;
-  --fw-bold: 600;
+  --fw-bold: 700;
 
   --fs-title: 1.5rem;
   --fs-body: 0.875rem;
@@ -77,10 +77,10 @@ ul[role="list"] {
     --fs-body: 0.875rem;
     --fs-base: 1rem;
 
-    --py-base: 1.25rem;
+    --py-base: 1.5rem;
     --py-lg: 2rem;
 
-    --px-base: 1.5rem;
+    --px-base: 2rem;
     --px-lg: 2rem;
   }
 }

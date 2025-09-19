@@ -1,50 +1,65 @@
-header {
-  background-color: var(--surface-color);
-  & nav {
-    justify-content: space-between;
+#profile-container {
+  display: grid;
+  gap: 1rem;
 
-    & div {
-      & img:nth-child(3) {
-        width: 2.5rem;
-      }
-
-      & ul li {
-        display: inline-block;
-      }
-
-      & ul li:last-child {
-        padding-left: 1rem;
-      }
+  #profile {
+    & img {
+      width: 7.5rem;
+      height: 7.5rem;
     }
 
-    & ul {
-      & li:first-child {
-        & a {
-          background: url(/assets/icons/MagnifyingGlass.svg) no-repeat;
-          display: inline-block;
-          padding-left: 2rem;
+    & > div {
+      & h1 {
+        margin-bottom: 1rem;
+      }
 
-          &:hover {
-            background: url(/assets/icons/MagnifyingGlass-hover.svg) no-repeat;
-          }
-        }
+      & p {
+        font-size: var(--fs-body);
       }
     }
   }
 }
 
-a.search {
-  --bg-img: "";
-  background-image: var(--bg-img);
-  width: 1.5rem;
-  height: 1.5rem;
-  display: block;
+#info {
+  width: 17.5rem;
 
-  &[aria-label="magnifying-glass"] {
-    --bg-img: url(/assets/icons/MagnifyingGlass.svg);
+  & li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
 
-    &:hover {
-      --bg-img: url(/assets/icons/MagnifyingGlass-hover.svg);
+  & span {
+    font-size: var(--fs-body);
+  }
+}
+
+@media (width >= 80rem) {
+  #profile-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #profile {
+    display: flex;
+    gap: 2rem;
+    width: 39rem;
+
+    & img {
+      width: 11rem;
+      height: 11rem;
+    }
+
+    & > div {
+      & p {
+        font-size: inherit;
+      }
+    }
+  }
+
+  #info {
+    & span {
+      font-size: inherit;
     }
   }
 }
