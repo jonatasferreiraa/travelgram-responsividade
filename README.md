@@ -1,6 +1,18 @@
 # 📩 Pagina travelgram (Perfil de viagens) - com responsividade  
 
-Navegação: [Tecnologias](#tecnologias) | [Funcionalidades](#funcionalidades) | [Demonstração](#demonstracao) | [Como rodar localmente](#como-rodar) | [Pré-requisitos](#pre-requisitos) | [Licença](licenca)
+Navegação:
+
+<p align= "center">
+<a href="#sobre">Sobre o projeto</a> |
+<a href="#tecnologias">Tecnologias</a> |
+<a href="#funcionalidades">Funcionalidades</a> |
+<a href="#como-rodar-localmente">Como rodar Localmente</a> |
+<a href="#pré-requisitos">Pré requisitos</a> |
+<a href="#licença">Licença</a>
+</p>
+
+## Sobre
+
 
 ![Nest Hub Max-1758308190957](https://github.com/user-attachments/assets/d5b70630-5742-4865-b9ec-cb918131b179)
 ![Samsung Galaxy S8+-1758308178417](https://github.com/user-attachments/assets/fd16e083-9e25-498a-8360-c7466ff8ec32)
@@ -13,23 +25,23 @@ Projeto desenvolvido com intuito de **estudo de responsividade e práticas de HT
 
 ---
 
-## Tecnologias  🚀 
+## Tecnologias 
 - **HTML5** → Estruturação básica 
 - **CSS3** → estilização avançada e responsiva  
 
 ---
 
-##  Funcionalidades ✨
+##  Funcionalidades
 - **Botões de navegação e icone** Botões interativos;
 
 ---
 
-##  Demonstração  🖼️
+##  Demonstração 
 🔗 [Acesse o projeto online](https://jonatasferreiraa.github.io/travelgram_com_responsividade/)  
 
 ---
 
-##  Como rodar localmente  ⚙️
+##  Como rodar localmente
 1. Clone este repositório
    
    ```bash
@@ -40,12 +52,12 @@ Projeto desenvolvido com intuito de **estudo de responsividade e práticas de HT
 
 ---
 
-##  Pré-requisitos 📌
+##  Pré-requisitos
 
 
 - Apenas um **editor de código** de sua preferência (ex: VS Code)  
 
 ---
 
-##  Licença  📜
+##  Licença
 Projeto desenvolvido como parte da [Rocketseat](https://www.rocketseat.com.br/) 🚀  
