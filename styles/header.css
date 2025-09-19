@@ -58,6 +58,9 @@
   }
 
   #info {
+    display: flex;
+    flex-direction: column;
+
     & span {
       font-size: inherit;
     }

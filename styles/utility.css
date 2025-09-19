@@ -52,10 +52,6 @@
   display: none;
 }
 
-#mobile-only {
-  display: initial;
-}
-
 .even-columns {
   display: grid;
   gap: 1rem;
@@ -68,10 +64,6 @@
 
   .desktop-only {
     display: initial;
-  }
-
-  #mobile-only {
-    display: none;
   }
 
   .even-columns {

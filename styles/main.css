@@ -1,6 +1,6 @@
 main {
   display: grid;
-  gap: 16px;
+  gap: 1rem;
 
   & img {
     width: 20.5rem;
@@ -11,13 +11,14 @@ main {
 
 @media (width >= 80rem) {
   main {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-  }
-  main img {
-    width: 17.875rem;
-    height: 17.875rem;
-    aspect-ratio: 1/1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+
+    & img {
+      width: 17.875rem;
+      height: 17.875rem;
+      aspect-ratio: 1/1;
+    }
   }
 }

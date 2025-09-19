@@ -21,9 +21,9 @@
         <div class="flex items-center gap-1">
           <a
             href="#"
-            class="search"
+            class="mobile-only"
+            id="search"
             aria-label="magnifying-glass"
-            id="mobile-only"
           ></a>
 
           <ul role="list" class="desktop-only">
@@ -39,10 +39,7 @@
         </div>
       </nav>
 
-      <div
-        class="px-lg py-lg even-columns gap-1 items-center"
-        id="profile-container"
-      >
+      <div class="py-lg px-lg" id="profile-container">
         <div id="profile">
           <img
             src="/assets/icons/profile-img.svg"
@@ -90,5 +87,13 @@
       <img src="/assets/images/Image 11.png" alt="..." />
       <img src="/assets/images/Image 12.png" alt="..." />
     </main>
+
+    <footer class="container py-base flex">
+      <span> Travelgram &copy; 2025</span>
+      <span id="docs"
+        ><span> Termos de uso </span>
+        <span> Política de privacidade</span>
+      </span>
+    </footer>
   </body>
 </html>

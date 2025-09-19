@@ -34,7 +34,7 @@ header {
   }
 }
 
-a.search {
+a#search {
   --bg-img: "";
   background-image: var(--bg-img);
   width: 1.5rem;
@@ -47,5 +47,11 @@ a.search {
     &:hover {
       --bg-img: url(/assets/icons/MagnifyingGlass-hover.svg);
     }
+  }
+}
+
+@media (width >= 80rem) {
+  a#search {
+    display: none;
   }
 }
