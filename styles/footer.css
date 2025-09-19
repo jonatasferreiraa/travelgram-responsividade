@@ -1,0 +1,28 @@
+footer {
+  font: 0.875rem/1.5 var(--ff-sans);
+
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+
+  & #docs {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media (width >= 80rem) {
+  footer {
+    font: 0.875rem/1.5 var(--ff-sans);
+
+    align-items: center;
+    flex-direction: initial;
+    justify-content: space-between;
+    gap: 1rem;
+
+    & #docs {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}
