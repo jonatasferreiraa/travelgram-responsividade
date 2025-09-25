@@ -1,7 +1,7 @@
 
 # 📩 Pagina travelgram (Perfil de viagens) - com responsividade  
 
-<img width="1920" height="1080" alt="Thumbnail (3)" src="https://github.com/user-attachments/assets/7dbbcf3d-41f6-450a-9073-ddbe72849ae8" />
+
 
 Navegação:
 
@@ -13,6 +13,8 @@ Navegação:
 <a href="#pré-requisitos">Pré requisitos</a> |
 <a href="#licença">Licença</a>
 </p>
+
+<img width="1920" height="1080" alt="Thumbnail (3)" src="https://github.com/user-attachments/assets/7dbbcf3d-41f6-450a-9073-ddbe72849ae8" />
 
 ## Sobre
 
